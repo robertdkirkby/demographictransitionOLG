@@ -433,7 +433,7 @@ transpathoptions.GEnewprice3.howtoupdate=... % a row is: GEcondn, price, add, fa
 transpathoptions.verbose=1;
 transpathoptions.graphpricepath=1;
 transpathoptions.graphaggvarspath=1;
-transpathoptions.tolerance=5*10^(4); % default would be 10^(-4)
+transpathoptions.tolerance=5*10^(-4); % default would be 10^(-4)
 PricePath=TransitionPath_Case1_FHorz(PricePath0, ParamPath, T, V_final, StationaryDist_initial, n_d, n_a, n_z, N_j, pi_z, d_grid,a_grid,z_grid, ReturnFn,  FnsToEvaluate, TransPathGeneralEqmEqns, Params, DiscountFactorParamNames, AgeWeightsParamNames, transpathoptions);
 % The path for the stock variables is simply included as part of PricePath. While the difference between a stock variable and a price variable
 % is important when computing the general equilibrium transition path itself it ceases to be important from then on (similar to how the
